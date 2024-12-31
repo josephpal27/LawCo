@@ -105,7 +105,7 @@ header{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
     width: 100%;
 }
 .banner-search .search-input{
@@ -121,9 +121,7 @@ header{
     font-size: 0.9rem;
     background-color: transparent;
     border-radius: 30px;
-}
-.banner-search .search-input input:focus{
-    border: 2px solid #fff;
+    outline: none;
 }
 .banner-search .search-input input::placeholder{
     color: #fff;
@@ -139,5 +137,16 @@ header{
     border: none;
     color: #fff;
     background-color: #9e9a98;
+}
+.banner-search select{
+    background-color: #e3541c;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+}
+.banner-search select:focus{
+    border: none;
 }
 /* Banner Styles End */
