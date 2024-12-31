@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+
+/* Header Styles Start */
+header{
+    background-color: #e3541c;
+    color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0;
+}
+.header p{
+    font-weight: 500;
+    margin: 0;
+}
+.header i{
+    margin: 0 0.5rem;
+    font-size: 1.05rem;
+}
+.header a{
+    color: #fff;
+}
+/* Header Styles End */
+
+/* Navbar Styles Start */
+.navbar-brand img {
+    height: 50px;
+}
+.nav-item a{
+  font-weight: 500;
+  margin: 0 0 0 35px;
+}
+.nav-item a.active{
+  font-weight: 700;
+}
+.navbar button{
+  border-radius: 30px;
+  font-weight: 500;
+}
+.navbar button:first-child:hover{
+  background-color: #e3541c;
+  color: #fff;
+  border: 3px solid #e3541c;
+}
+.btn-orange {
+  background-color: #e3541c;
+  color: #fff;
+  border: 2px solid #e3541c;
+}
+.btn-orange:hover {
+  background-color: #d94b13;
+  color: #fff;
+}
+.btn-outline-dark {
+  border: 3px solid #e3541c;
+}
+.btn-outline-dark img {
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+/* Navbar Styles End */
+
+/* Banner Styles Start */
+.banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-height: 81.5vh;
+}
+.banner img{
+    width: 100%;
+}
+.banner-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #0000006e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-layer p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+.banner-layer h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+.banner-search{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.banner-search .search-input{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.banner-search .search-input input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.banner-search .search-input input:focus{
+    border: 2px solid #fff;
+}
+.banner-search .search-input input::placeholder{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.banner-search .search-input button{
+    position: absolute;
+    right: 0.25rem;
+    top: 0.25rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0.28rem 0.7rem;
+    border: none;
+    color: #fff;
+    background-color: #9e9a98;
+}
+/* Banner Styles End */
